@@ -1,0 +1,99 @@
+
+.wellcome-bg{ 
+  background: url('../image/carcity.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: arial;
+}
+.bacground-project {
+	background: url('../image/backgroud-blue.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: arial;
+}
+.bacground-email {
+	background: url('../image/abstract-dark-blue.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: arial;
+}
+
+.transbox
+{
+  background-color: #ffffff;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.transbox p
+{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-family: arial;
+  font-size: 36px;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px #C0C0C0;
+  text-transform: uppercase;
+}
+.transbox-project
+{
+  margin: 80px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.transbox-project p
+{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-family: arial;
+  font-size: 36px;
+}
+.transbox-readme
+{
+    margin: 80px;
+    background-color: #5189b3;
+    border: 1px solid grey;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.transbox-readme p
+{
+     margin: 3%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-family: arial;
+  font-size: 24px;
+  
+}
+.bottom {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+.margin-text {
+	margin: 10px 5px 15px 20px;
+}
+
+.textarea-margin {
+  margin: 30px, 30px, 30px, 30px;
+  font-size: 100%;
+  vertical-align: middle;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  font-family: arial;
+  color: #000000;
+}
+

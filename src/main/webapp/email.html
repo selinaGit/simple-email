@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Send Email</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet"
+	type="text/css">
+<script type="text/javascript" src="emailprocess.js"></script>
+</head>
+
+<body class="bacground-email">
+
+	<form class="navbar-form navbar-text" id="email-form" method="post" action="" onsubmit="return processEmail()">
+		<div class="form-group">
+			<div class="input-prepend">
+				<input class="span5" id="to-email"
+				    type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+					placeholder="To Email: account@example.com" required>
+			</div>
+			<br>
+
+			<div class="input-prepend">
+				<input class="span5" id="full-name" type="text"
+					placeholder="Your Name" required>
+			</div>
+			<br>
+
+			<div class="input-prepend">
+				<input class="span5" id="email-subject" placeholder="Email Subject"
+					required>
+			</div>
+			<br>
+
+			<div class="input-prepend">
+				<textarea class="span8" id="email-message" rows="10%"
+					placeholder="Enter Message Here..." required></textarea>
+			</div>
+			<br>
+
+		   <div>
+				<input class="btn btn-default" id="submit-button" placeholder="Send Email Now!"  onclick="processEmail()" type="submit" required>
+			</div>
+			<br>
+			
+			<div>
+				<button class="alert alert-info  text-center"
+					id="response-button" type="button" onclick="hideButton()" data-dismiss="alert"
+					style="display: none;" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					<strong id="response-message">Your Email
+							Send Successfully!</strong>
+				</button>
+			</div>
+
+			<br> <br> <br> <br>
+			<div class="navbar-header" style="float: right;">
+				<a class="btn btn-default" href="index.html">Back to HomePage</a>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">@Copy Right 2015 Selina Wu.</p>
+			</div>
+		</footer>
+	</form>
+
+</body>
+</html>
