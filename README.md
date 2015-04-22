@@ -1,4 +1,6 @@
-  Design for Simple Email Service
+
+Design for simple Email Service
+ 
     1. Web Page:  need to support all major languages, OS and PC and mobile device display.
     2. Web Sever/servlet talk to different Email Providers
     3. The request log will write to AWS S3 buckets
@@ -6,15 +8,15 @@
     5. Build a monitor service to check the server status and the request log at AWS S3 bucket. Show the charts with real-time data
     6. Build a Automation Test Framework with Selenium webdriver for the web service
     7. implement the Test cases for smoke, sanity, regression Test.
-      
-   However I only implemented a simplified solution with limited time.
-   The design graph is shown below.
-   ![alt tag](src/main/webapp/image/design-img.png)
-   
-  Simplified Solution:     
-    This project more focus on back end. because I do not have any front end experience before this project.
-    This project front end use html, css, javascript.
-    This project backend use Jetty Servlet by Java.	
+    
+    However I only implemented a simplified solution with limited time.
+    The design graph is shown below.
+     ![alt tag](src/main/webapp/image/design-img.png)
+     
+     Simplified Solution:  
+     This project more focus on back end. because I do not have any front end experience before this project.
+     This project front end use Html, Css, Javascript.
+     This project back end use Jetty Servlet by Java.	
     
     BackEnd:
     1) EmailServlet class: an SendEamill object will send email at doPost method and will send respond back to web page
@@ -44,12 +46,12 @@
     4) a back home page button to go back to home page
     
     BTW, I choose java to implement back end, only because it is my primary coding language. and I could implement this project fast. I understand some people might prefer different language such as Scala, PHP, goLang...
-
-  Experience with technical stack in this project:
+    
+    Experience with technical stack in this project:
 	HTML, CSS,  AJAX/JavaScript:  No experience before this project
 	Java: 4 years experience.
-	Server/Servlet:  a couple of small projects 
-	
+	Server/Servlet:  a couple of small projects
+
   How to Use APIs:
 
     1) SendEmail
@@ -73,6 +75,7 @@
     String emailText: Your email message.
  			
  Running environment:
+ 
 	command line to run: mvn jetty:run
 	java 1.7
 	maven 3
@@ -81,6 +84,7 @@
 	Safari: Version 8.0.4 (10600.4.10.7)
 	
   Limitation:
+  
 	Only one to email account is allowed at this moment because of limited time
 	Only Google Chrome: Version 41.0.2272.118 (64-bit) and Safari: Version 8.0.4 (10600.4.10.7) on Max OS X Yosemite  Version 10.10 are tested 
 	the password encode and decode need a real encode/decode algorithm
