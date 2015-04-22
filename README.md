@@ -74,8 +74,12 @@ Design for simple Email Service
     String subject: The subject of your email 
     String emailText: Your email message.
  			
- Running environment:
+ Host Location and Running environment:
  
+    Host location:
+    https://arcane-lake-1999.herokuapp.com
+    
+    Running environment 
 	command line to run: mvn jetty:run
 	java 1.7
 	maven 3
