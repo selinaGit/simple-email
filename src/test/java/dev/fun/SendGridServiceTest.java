@@ -22,15 +22,15 @@ public class SendGridServiceTest {
 		assertTrue (fromAddr.equalsIgnoreCase("CustomerServiceTesting0@sendgrid.com") ||
 		fromAddr.equalsIgnoreCase("CustomerServiceTesting1@sendgrid.com")) ;
 		
-
-		
 		String[] tos = email.getTos();
-		String to = tos[0];
-		assertEquals(1, to.length());
-		assertEquals("toCustomerServiceTesting0@gmail.com", to);
+		assertEquals(1, tos.length);
+		
+		String to = tos[0];	
+		assertEquals("CustomerServiceTesting0@gmail.com", to);
 		
 		assertEquals(subject, email.getSubject());
-		assertEquals(emailText, email.getText());
+		assertTrue(email.getText().contains(emailText));
+		assertTrue(email.getText().contains(fullName));
 	}
 
 }
