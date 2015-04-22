@@ -11,7 +11,7 @@ Design for simple Email Service
     
     However I only implemented a simplified solution with limited time.
     The design graph is shown below.
-     ![alt tag](src/main/webapp/image/design-img.png)
+  ![alt tag](src/main/webapp/image/design-img.png)
      
      Simplified Solution:  
      This project more focus on back end. because I do not have any front end experience before this project.
