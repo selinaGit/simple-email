@@ -1,6 +1,6 @@
 package dev.fun;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.json.simple.parser.ParseException;
 import org.junit.Test;

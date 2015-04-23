@@ -6,8 +6,12 @@ import java.util.logging.Logger;
 
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
-import  javax.naming.*;
-import  javax.naming.directory.*;
+import javax.naming.directory.Attribute;
+import javax.naming.directory.Attributes;
+import javax.naming.directory.DirContext;
+import javax.naming.directory.InitialDirContext;
+import javax.naming.NamingException;
+
 
 /**
  * 

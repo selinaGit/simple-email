@@ -1,6 +1,7 @@
 package dev.fun;
 
-import com.sendgrid.*;
+import com.sendgrid.SendGrid;
+import com.sendgrid.SendGridException;
 import com.sendgrid.SendGrid.*;
 
 /**
